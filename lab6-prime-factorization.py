@@ -1,4 +1,6 @@
 def prime_factorization(n):
+    if n == 1:
+        return [[1, 1]]
     result = []
     factor = 2
     while factor * factor <= n:
@@ -14,7 +16,7 @@ def prime_factorization(n):
     return result
 
 
-print prime_factorization(1)  # TODO ???
+print prime_factorization(1)
 print prime_factorization(2)
 print prime_factorization(10)
 print prime_factorization(11)
