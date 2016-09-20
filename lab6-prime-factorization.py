@@ -15,11 +15,6 @@ def prime_factorization(n):
         result.append([n, 1])
     return result
 
-
-print prime_factorization(1)
-print prime_factorization(2)
-print prime_factorization(10)
-print prime_factorization(11)
-print prime_factorization(12)
-print prime_factorization(16)
-print prime_factorization(1026)
+tests = [1, 2, 10, 11, 12, 16, 1026]
+for x in tests:
+    print "Prime factorization for ", x, " : ", prime_factorization(x)
