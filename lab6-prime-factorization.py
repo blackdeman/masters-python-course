@@ -1,6 +1,4 @@
 def prime_factorization(n):
-    if n == 1:
-        return [[1, 1]]
     result = []
     factor = 2
     while factor * factor <= n:
@@ -15,6 +13,6 @@ def prime_factorization(n):
         result.append([n, 1])
     return result
 
-tests = [1, 2, 10, 11, 12, 16, 1026]
+tests = [17, 18]
 for x in tests:
     print "Prime factorization for ", x, " : ", prime_factorization(x)

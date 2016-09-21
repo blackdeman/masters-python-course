@@ -1,13 +1,12 @@
 def collatz_conjecture(x):
-    tmp = x
+    s = set()
     print x,
-    while tmp != 1:
-        tmp = 3 * tmp + 1 if tmp % 2 else tmp / 2
-        print " -> ", tmp,
-        if tmp == x:
-            break
+    while x != 1 and x not in s:
+        s.add(x)
+        x = 3 * x + 1 if x % 2 else x / 2
+        print " -> ", x,
     print
-    return tmp == 1
+    return x == 1
 
 
 x = input("Enter a natural number to test: ")
