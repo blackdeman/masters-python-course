@@ -17,6 +17,9 @@ class CartesianProductElement:
     def get_value(self):
         return self.value
 
+    def get_min_value(self):
+        return self.min_value
+
     def next_value(self):
         self.__incr(self.n - 1)
 
@@ -25,10 +28,10 @@ def cartesian_product(X, n):
     el = CartesianProductElement(X, n)
     yield el.get_value()[:]
     el.next_value()
-    while el.get_value() != el.min_value:
+    while el.get_value() != el.get_min_value():
         yield el.value[:]
         el.next_value()
 
 tests = [[['e', 1, 'a'], 2]]
 for X in tests:
-    print "Cartesian product for {} : {}".format(X, list(cartesian_product(X[0], X[1])))
+    print "Cartesian product for {} :\n {}".format(X, list(cartesian_product(X[0], X[1])))
