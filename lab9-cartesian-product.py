@@ -34,4 +34,4 @@ def cartesian_product(X, n):
 
 tests = [[['e', 1, 'a'], 2]]
 for X in tests:
-    print "Cartesian product for {} :\n {}".format(X, list(cartesian_product(X[0], X[1])))
+    print "Input: {}\n Output:\n {}".format(X, list(cartesian_product(X[0], X[1])))
