@@ -14,13 +14,13 @@ def group(data):
 
 def ungroup(data):
     if len(data) % 2 != 0:
-        raise TypeError("List has a odd length!")
+        raise ValueError("List has a odd length!")
     for k, v in grouped(data, 2):
-        try:
-            for _ in repeat(None, int(k)):
+        if isinstance(k, int):
+            for _ in repeat(None, k):
                 yield v
-        except ValueError:
-            raise TypeError("List has an incorrect structure!")
+        else:
+            raise ValueError("List has an incorrect structure!")
 
 
 testlist = ["a", "b", "b", "c", "b", "c", "c"]
