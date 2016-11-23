@@ -79,3 +79,5 @@ class xrangeiterator(Iterator):
         if self._count > self._xrange._len:
             raise StopIteration()
         return self._last
+
+print list(reversed(xrangep(1, 10, 2)))
