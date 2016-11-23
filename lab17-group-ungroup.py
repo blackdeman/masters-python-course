@@ -1,4 +1,4 @@
-from itertools import groupby, tee, izip, repeat
+from itertools import groupby, izip, repeat
 
 
 def grouped(iterable, n):
