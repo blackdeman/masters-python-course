@@ -74,3 +74,12 @@ printinfo(b, "b")
 b.append('d')
 printinfo(b, "b after b.append('d')")
 addrcmp(a, b)
+print
+print "Set test"
+a = {'a', 1, 'c', 'd'}
+b = {'a', 1, 'c'}
+printinfo(a, "a")
+printinfo(b, "b")
+b = b | {'d'}
+printinfo(b, "b after b = b | {'d'}")
+addrcmp(a, b)
