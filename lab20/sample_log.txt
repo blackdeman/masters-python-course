@@ -1,0 +1,77 @@
+ ---- Start test #1 ---- 
+[Tue Dec 20 19:52:58 2016]: 1. https://ru.wikipedia.org/wiki/Python
+[Tue Dec 20 19:52:59 2016]: 2. https://ru.wikipedia.org/wiki/Высокоуровневый_язык_программирования
+[Tue Dec 20 19:53:00 2016]: 3. https://ru.wikipedia.org/wiki/Язык_программирования
+[Tue Dec 20 19:53:00 2016]: 4. https://ru.wikipedia.org/wiki/Знаковая_система
+[Tue Dec 20 19:53:01 2016]: 5. https://ru.wikipedia.org/wiki/Система
+[Tue Dec 20 19:53:01 2016]: 6. https://ru.wikipedia.org/wiki/Множество
+[Tue Dec 20 19:53:02 2016]: 7. https://ru.wikipedia.org/wiki/Математика
+[Tue Dec 20 19:53:03 2016]: 8. https://ru.wikipedia.org/wiki/Наука
+[Tue Dec 20 19:53:04 2016]: 9. https://ru.wikipedia.org/wiki/Объективность
+[Tue Dec 20 19:53:04 2016]: 10. https://ru.wikipedia.org/wiki/Объект_(философия)
+Link to some Philosophy article is found. (https://ru.wikipedia.org/wiki/Философия)
+True
+ --- Finish test ---- 
+ ---- Start test #2 ---- 
+[Tue Dec 20 19:53:04 2016]: 1. https://ru.wikipedia.org/wiki/Мэрилин_Монро
+[Tue Dec 20 19:53:05 2016]: 2. https://ru.wikipedia.org/wiki/США
+[Tue Dec 20 19:53:06 2016]: 3. https://ru.wikipedia.org/wiki/Государство
+[Tue Dec 20 19:53:06 2016]: 4. https://ru.wikipedia.org/wiki/Организация
+[Tue Dec 20 19:53:07 2016]: 5. https://ru.wikipedia.org/wiki/Ресурс
+[Tue Dec 20 19:53:08 2016]: 6. https://ru.wikipedia.org/wiki/Ресурс_(техника)
+[Tue Dec 20 19:53:08 2016]: 7. https://ru.wikipedia.org/wiki/Наработка_на_отказ
+[Tue Dec 20 19:53:09 2016]: 8. https://ru.wikipedia.org/wiki/Теория_надёжности
+[Tue Dec 20 19:53:10 2016]: 9. https://ru.wikipedia.org/wiki/Наука
+[Tue Dec 20 19:53:10 2016]: 10. https://ru.wikipedia.org/wiki/Объективность
+[Tue Dec 20 19:53:11 2016]: 11. https://ru.wikipedia.org/wiki/Объект_(философия)
+Link to some Philosophy article is found. (https://ru.wikipedia.org/wiki/Философия)
+True
+ --- Finish test ---- 
+ ---- Start test #3 ---- 
+[Tue Dec 20 19:53:12 2016]: 1. https://ru.wikipedia.org/wiki/Белорусский_государственный_университет
+[Tue Dec 20 19:53:12 2016]: 2. https://ru.wikipedia.org/wiki/Высшее_учебное_заведение
+[Tue Dec 20 19:53:13 2016]: 3. https://ru.wikipedia.org/wiki/Учебное_заведение
+[Tue Dec 20 19:53:13 2016]: 4. https://ru.wikipedia.org/wiki/Российская_империя
+[Tue Dec 20 19:53:14 2016]: 5. https://ru.wikipedia.org/wiki/Государство
+[Tue Dec 20 19:53:15 2016]: 6. https://ru.wikipedia.org/wiki/Организация
+[Tue Dec 20 19:53:16 2016]: 7. https://ru.wikipedia.org/wiki/Ресурс
+[Tue Dec 20 19:53:16 2016]: 8. https://ru.wikipedia.org/wiki/Ресурс_(техника)
+[Tue Dec 20 19:53:17 2016]: 9. https://ru.wikipedia.org/wiki/Наработка_на_отказ
+[Tue Dec 20 19:53:17 2016]: 10. https://ru.wikipedia.org/wiki/Теория_надёжности
+[Tue Dec 20 19:53:18 2016]: 11. https://ru.wikipedia.org/wiki/Наука
+[Tue Dec 20 19:53:19 2016]: 12. https://ru.wikipedia.org/wiki/Объективность
+[Tue Dec 20 19:53:20 2016]: 13. https://ru.wikipedia.org/wiki/Объект_(философия)
+Link to some Philosophy article is found. (https://ru.wikipedia.org/wiki/Философия)
+True
+ --- Finish test ---- 
+ ---- Start test #4 ---- 
+[Tue Dec 20 19:53:20 2016]: 1. https://ru.wikipedia.org/wiki/Steam
+[Tue Dec 20 19:53:21 2016]: 2. https://ru.wikipedia.org/wiki/Цифровая_дистрибуция
+[Tue Dec 20 19:53:21 2016]: 3. https://ru.wikipedia.org/wiki/Законность
+[Tue Dec 20 19:53:22 2016]: 4. https://ru.wikipedia.org/wiki/Правовой_принцип
+[Tue Dec 20 19:53:23 2016]: 5. https://ru.wikipedia.org/wiki/Закономерность
+[Tue Dec 20 19:53:23 2016]: 6. https://ru.wikipedia.org/wiki/Необходимость_(философия)
+[Tue Dec 20 19:53:24 2016]: 7. https://ru.wikipedia.org/wiki/Действительность
+[Tue Dec 20 19:53:24 2016]: 8. https://ru.wikipedia.org/wiki/Реальность
+Link to some Philosophy article is found. (https://ru.wikipedia.org/wiki/Философия)
+True
+ --- Finish test ---- 
+ ---- Start test #5 ---- 
+[Tue Dec 20 19:53:25 2016]: 1. https://ru.wikipedia.org/wiki/Кошка
+[Tue Dec 20 19:53:26 2016]: 2. https://ru.wikipedia.org/wiki/Домашние_животные
+[Tue Dec 20 19:53:26 2016]: 3. https://ru.wikipedia.org/wiki/Животные
+[Tue Dec 20 19:53:27 2016]: 4. https://ru.wikipedia.org/wiki/Организм
+[Tue Dec 20 19:53:28 2016]: 5. https://ru.wikipedia.org/wiki/Жизнь
+[Tue Dec 20 19:53:28 2016]: 6. https://ru.wikipedia.org/wiki/Биология
+Cycle is found. Link has already been processed. (https://ru.wikipedia.org/wiki/Организм)
+False
+ --- Finish test ---- 
+ ---- Start test #6 ---- 
+[Tue Dec 20 19:53:29 2016]: 1. https://ru.wikipedia.org/wiki/Теория_большого_взрыва_(телесериал)
+[Tue Dec 20 19:53:29 2016]: 2. https://ru.wikipedia.org/wiki/Ситком
+[Tue Dec 20 19:53:30 2016]: 3. https://ru.wikipedia.org/wiki/Комедия
+[Tue Dec 20 19:53:31 2016]: 4. https://ru.wikipedia.org/wiki/Художественное_произведение
+[Tue Dec 20 19:53:32 2016]: 5. https://ru.wikipedia.org/wiki/Технический_объект
+Link wasn't extracted for some reason.
+False
+ --- Finish test ---- 
