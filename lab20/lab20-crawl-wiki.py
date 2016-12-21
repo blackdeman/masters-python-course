@@ -15,7 +15,7 @@ final_urls = {
 
 
 def encode_url(url):
-    return urllib.unquote(url.encode('utf-8'))
+    return urllib.unquote(str(url))
 
 
 def extract_normal_link(url, content):
